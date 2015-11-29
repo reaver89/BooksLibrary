@@ -1,0 +1,5 @@
+c:\users\reaver\documents\visual studio 2015\Projects\BooksLibrary\BooksLibrary\bin\Debug\BooksLibrary.dll
+c:\users\reaver\documents\visual studio 2015\Projects\BooksLibrary\BooksLibrary\bin\Debug\BooksLibrary.pdb
+c:\users\reaver\documents\visual studio 2015\Projects\BooksLibrary\BooksLibrary\obj\Debug\BooksLibrary.Entities.csprojResolveAssemblyReference.cache
+c:\users\reaver\documents\visual studio 2015\Projects\BooksLibrary\BooksLibrary\obj\Debug\BooksLibrary.dll
+c:\users\reaver\documents\visual studio 2015\Projects\BooksLibrary\BooksLibrary\obj\Debug\BooksLibrary.pdb
