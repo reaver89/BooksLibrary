@@ -49,17 +49,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BooksLibraryContext.cs" />
     <Compile Include="Configuration\AuthorConfiguration.cs" />
     <Compile Include="Configuration\BookAuthorConfiguration.cs" />
     <Compile Include="Configuration\BookConfiguration.cs" />
     <Compile Include="Configuration\BookGenreConfiguration.cs" />
+    <Compile Include="Configuration\BookTagConfiguration.cs" />
     <Compile Include="Configuration\EntityBaseConfiguration.cs" />
     <Compile Include="Configuration\GenreConfiguration.cs" />
     <Compile Include="Configuration\RoleConfiguration.cs" />
     <Compile Include="Configuration\TagConfiguration.cs" />
     <Compile Include="Configuration\UserConfiguration.cs" />
     <Compile Include="Configuration\UserRoleConfiguration.cs" />
+    <Compile Include="Infrastructure\DbFactory.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
+    <Compile Include="Infrastructure\IDbFactory.cs" />
+    <Compile Include="Infrastructure\IUnitOfWork.cs" />
+    <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\EntityBaseRepository.cs" />
+    <Compile Include="Repositories\IEntityBaseRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
