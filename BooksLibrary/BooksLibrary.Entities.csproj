@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="Author.cs" />
     <Compile Include="Book.cs" />
+    <Compile Include="BookAuthor.cs" />
+    <Compile Include="BookGenre.cs" />
+    <Compile Include="BookTag.cs" />
     <Compile Include="Error.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="IEntityBase.cs" />

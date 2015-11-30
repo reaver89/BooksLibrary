@@ -8,6 +8,7 @@ namespace BooksLibrary
         {
             Genres = new List<Genre>();
             Authors = new List<Author>();
+            Tags = new List<Tag>();
         }
 
         public int Id { get; set; }
@@ -21,5 +22,6 @@ namespace BooksLibrary
         public string Edition { get; set; }
         public virtual ICollection<Genre> Genres { get; set; }
         public virtual ICollection<Author> Authors { get; set; }
+        public virtual ICollection<Tag> Tags { get; set; }
     }
 }

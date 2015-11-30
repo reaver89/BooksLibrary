@@ -49,9 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\AuthorConfiguration.cs" />
+    <Compile Include="Configuration\BookAuthorConfiguration.cs" />
     <Compile Include="Configuration\BookConfiguration.cs" />
+    <Compile Include="Configuration\BookGenreConfiguration.cs" />
     <Compile Include="Configuration\EntityBaseConfiguration.cs" />
     <Compile Include="Configuration\GenreConfiguration.cs" />
+    <Compile Include="Configuration\RoleConfiguration.cs" />
+    <Compile Include="Configuration\TagConfiguration.cs" />
+    <Compile Include="Configuration\UserConfiguration.cs" />
+    <Compile Include="Configuration\UserRoleConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
