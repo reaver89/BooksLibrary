@@ -32,7 +32,7 @@ namespace BooksLibrary.Data.Configuration
             {
                 cs.MapLeftKey("book_id");
                 cs.MapRightKey("tag_id");
-                cs.ToTable("BOOK_TAGS");
+                cs.ToTable("BOOK_TAG");
             });
         }
     }

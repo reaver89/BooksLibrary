@@ -7,10 +7,10 @@ namespace BooksLibrary.Data.Configuration
         {
             Property(t => t.Id).HasColumnName("tag_id");
             Property(t => t.Name).IsRequired().HasMaxLength(50);
-            HasMany(g => g.Books).WithMany(b => b.Tags).Map(cs =>
+            HasMany(t => t.Books).WithMany(b => b.Tags).Map(cs =>
             {
-                cs.MapLeftKey("book_id");
-                cs.MapRightKey("tag_id");
+                cs.MapLeftKey("tag_id");
+                cs.MapRightKey("book_id");
                 cs.ToTable("BOOK_TAG");
             });
         }
