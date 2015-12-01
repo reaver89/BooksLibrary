@@ -61,11 +61,13 @@
     <Compile Include="Configuration\TagConfiguration.cs" />
     <Compile Include="Configuration\UserConfiguration.cs" />
     <Compile Include="Configuration\UserRoleConfiguration.cs" />
+    <Compile Include="Extensions\UserExtension.cs" />
     <Compile Include="Infrastructure\DbFactory.cs" />
     <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Infrastructure\IDbFactory.cs" />
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
+    <Compile Include="MembershipContext.cs" />
     <Compile Include="Migrations\201512010806053_initial_migration.cs" />
     <Compile Include="Migrations\201512010806053_initial_migration.Designer.cs">
       <DependentUpon>201512010806053_initial_migration.cs</DependentUpon>
