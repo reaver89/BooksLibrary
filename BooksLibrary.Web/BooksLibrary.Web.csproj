@@ -180,6 +180,12 @@
     <Content Include="Content\images\raty\star-on-big.png" />
     <Content Include="Content\images\raty\star-on.png" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\spa\app.js" />
+    <Content Include="Scripts\spa\layout\sideBar.directive.js" />
+    <Content Include="Scripts\spa\layout\sideBar.html" />
+    <Content Include="Scripts\spa\layout\topBar.directive.js" />
+    <Content Include="Scripts\spa\layout\topBar.html" />
+    <Content Include="Scripts\spa\Modules\common.core.js" />
     <Content Include="Scripts\vendors\angucomplete-alt.min.js" />
     <Content Include="Scripts\vendors\angular-base64.js" />
     <Content Include="Scripts\vendors\angular-cookies.js" />
@@ -208,6 +214,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -230,6 +237,8 @@
     <None Include=".bin\bower.cmd" />
     <None Include=".bin\git.cmd" />
     <None Include=".bin\node.cmd" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\spa\Modules\common.ui.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -239,9 +248,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\spa\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BooksLibrary.Data\BooksLibrary.Data.csproj">

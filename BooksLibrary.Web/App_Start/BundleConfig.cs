@@ -58,7 +58,8 @@ namespace BooksLibrary.Web.App_Start
                 "~/Scripts/spa/rental/rentStatsCtrl.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                "~/content/css/site.css", "~/content/css/bootstrap.css",
+                "~/content/css/site.css", 
+                "~/content/css/bootstrap.css",
                 "~/content/css/bootstrap-theme.css",
                 "~/content/css/font-awesome.css",
                 "~/content/css/morris.css",
