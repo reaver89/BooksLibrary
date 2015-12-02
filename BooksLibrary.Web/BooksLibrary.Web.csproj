@@ -180,6 +180,26 @@
     <Content Include="Content\images\raty\star-on-big.png" />
     <Content Include="Content\images\raty\star-on.png" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\vendors\angucomplete-alt.min.js" />
+    <Content Include="Scripts\vendors\angular-base64.js" />
+    <Content Include="Scripts\vendors\angular-cookies.js" />
+    <Content Include="Scripts\vendors\angular-file-upload.js" />
+    <Content Include="Scripts\vendors\angular-route.js" />
+    <Content Include="Scripts\vendors\angular-validator.js" />
+    <Content Include="Scripts\vendors\angular.js" />
+    <Content Include="Scripts\vendors\bootstrap.js" />
+    <Content Include="Scripts\vendors\jquery.fancybox-media.js" />
+    <Content Include="Scripts\vendors\jquery.fancybox.js" />
+    <Content Include="Scripts\vendors\jquery.js" />
+    <Content Include="Scripts\vendors\jquery.raty.js" />
+    <Content Include="Scripts\vendors\loading-bar.js" />
+    <Content Include="Scripts\vendors\modernizr.js" />
+    <Content Include="Scripts\vendors\morris.js" />
+    <Content Include="Scripts\vendors\raphael.js" />
+    <Content Include="Scripts\vendors\respond.src.js" />
+    <Content Include="Scripts\vendors\toastr.js" />
+    <Content Include="Scripts\vendors\ui-bootstrap-tpls-0.13.1.js" />
+    <Content Include="Scripts\vendors\underscore.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -207,6 +227,9 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include=".bin\bower.cmd" />
+    <None Include=".bin\git.cmd" />
+    <None Include=".bin\node.cmd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -219,7 +242,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\spa\" />
-    <Folder Include="Scripts\vendors\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BooksLibrary.Data\BooksLibrary.Data.csproj">
