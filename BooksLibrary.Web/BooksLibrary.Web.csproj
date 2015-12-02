@@ -151,6 +151,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastucture\Extensions\RequestMessageExtensions.cs" />
+    <Compile Include="Infrastucture\MessageHandlers\HomeCinemaAuthHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
+﻿using System.Web.Http;
+using BooksLibrary.Web.Infrastucture.MessageHandlers;
 
 namespace BooksLibrary.Web
 {
@@ -10,6 +8,8 @@ namespace BooksLibrary.Web
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
+
+            config.MessageHandlers.Add(new HomeCinemaAuthHandler());
 
             // Web API routes
             config.MapHttpAttributeRoutes();
