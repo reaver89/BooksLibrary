@@ -1,4 +1,5 @@
 ﻿using System.Web.Http;
+using BooksLibrary.Web.Infrastucture.Mappings;
 
 namespace BooksLibrary.Web.App_Start
 {
@@ -9,7 +10,7 @@ namespace BooksLibrary.Web.App_Start
             // Configure Autofac
 
             AutofacWebapiConfig.Initialize(GlobalConfiguration.Configuration);
-            //Configure AutoMapper // AutoMapperConfiguration.Configure(); } }
+            AutoMapperConfiguration.Configure();
         }
     }
 }
