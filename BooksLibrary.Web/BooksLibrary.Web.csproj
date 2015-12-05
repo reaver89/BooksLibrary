@@ -217,6 +217,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\BooksController.cs" />
+    <Compile Include="Controllers\GenresController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -228,6 +230,7 @@
     <Compile Include="Infrastucture\MessageHandlers\HomeCinemaAuthHandler.cs" />
     <Compile Include="Infrastucture\Validators\BookViewModelValidator.cs" />
     <Compile Include="Models\BookViewModel.cs" />
+    <Compile Include="Models\GenreViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

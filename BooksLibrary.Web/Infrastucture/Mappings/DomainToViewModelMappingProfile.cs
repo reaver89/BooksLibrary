@@ -9,6 +9,7 @@ namespace BooksLibrary.Web.Infrastucture.Mappings
         protected override void Configure()
         {
             Mapper.CreateMap<Book, BookViewModel>();
+            Mapper.CreateMap<Genre, GenreViewModel>();
         }
     }
 }
