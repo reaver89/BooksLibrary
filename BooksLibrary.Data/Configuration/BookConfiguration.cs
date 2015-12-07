@@ -13,6 +13,7 @@ namespace BooksLibrary.Data.Configuration
             Property(b => b.TitleEng).HasColumnName("title_eng");
             Property(b => b.Edition).HasMaxLength(200);
             Property(b => b.Description);
+            Property(b => b.Rating).IsRequired();
 
             HasMany(b => b.Authors).WithMany(a => a.Books).Map(cs =>
             {

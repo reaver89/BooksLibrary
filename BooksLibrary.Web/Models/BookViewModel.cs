@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Web.Mvc;
 using BooksLibrary.Web.Infrastucture.Validators;
 
 namespace BooksLibrary.Web.Models
 {
-
+    [Bind(Exclude = "Image")]
     public class BookViewModel : IValidatableObject
     {
-
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
@@ -18,6 +18,8 @@ namespace BooksLibrary.Web.Models
         public int Pages { get; set; }
         public int Year { get; set; }
         public string Edition { get; set; }
+        public string Genre { get; set; }
+        public byte Rating { get; set; }
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {

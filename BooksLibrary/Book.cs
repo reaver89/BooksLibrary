@@ -15,6 +15,8 @@ namespace BooksLibrary
         public string Title { get; set; }
         public string Description { get; set; }
         public string TitleEng { get; set; }
+        public string Image { get; set; }
+        public byte Rating { get; set; }
         public int Likes { get; set; }
         public int Dislikes { get; set; }
         public int Pages { get; set; }
