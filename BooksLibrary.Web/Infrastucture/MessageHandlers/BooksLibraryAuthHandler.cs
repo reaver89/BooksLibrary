@@ -12,7 +12,7 @@ using BooksLibrary.Web.Infrastucture.Extensions;
 
 namespace BooksLibrary.Web.Infrastucture.MessageHandlers
 {
-    public class HomeCinemaAuthHandler : DelegatingHandler
+    public class BooksLibraryAuthHandler : DelegatingHandler
     {
         IEnumerable<string> _authHeaderValues = null;
         protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)

@@ -9,7 +9,7 @@ namespace BooksLibrary.Web
         {
             // Web API configuration and services
 
-            config.MessageHandlers.Add(new HomeCinemaAuthHandler());
+            config.MessageHandlers.Add(new BooksLibraryAuthHandler());
 
             // Web API routes
             config.MapHttpAttributeRoutes();

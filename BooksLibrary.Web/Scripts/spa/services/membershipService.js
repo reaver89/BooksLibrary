@@ -37,7 +37,8 @@
         }
 
         function removeCredentials() {
-            $rootScope.repository = {}; $cookieStore.remove('repository');
+            $rootScope.repository = {};
+            $cookieStore.remove('repository');
             $http.defaults.headers.common.Authorization = '';
         };
 

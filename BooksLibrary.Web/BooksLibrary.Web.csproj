@@ -236,7 +236,7 @@
     <Compile Include="Infrastucture\Extensions\RequestMessageExtensions.cs" />
     <Compile Include="Infrastucture\Mappings\AutoMapperConfiguration.cs" />
     <Compile Include="Infrastucture\Mappings\DomainToViewModelMappingProfile.cs" />
-    <Compile Include="Infrastucture\MessageHandlers\HomeCinemaAuthHandler.cs" />
+    <Compile Include="Infrastucture\MessageHandlers\BooksLibraryAuthHandler.cs" />
     <Compile Include="Infrastucture\Validators\BookViewModelValidator.cs" />
     <Compile Include="Infrastucture\Validators\LoginViewModelValidator.cs" />
     <Compile Include="Infrastucture\Validators\RegistrationViewModelValidator.cs" />
