@@ -180,6 +180,10 @@
     <Content Include="Content\images\raty\star-on-big.png" />
     <Content Include="Content\images\raty\star-on.png" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\spa\account\login.html" />
+    <Content Include="Scripts\spa\account\loginCtrl.js" />
+    <Content Include="Scripts\spa\account\register.html" />
+    <Content Include="Scripts\spa\account\registerCtrl.js" />
     <Content Include="Scripts\spa\app.js" />
     <Content Include="Scripts\spa\directives\componentRating.directive.js" />
     <Content Include="Scripts\spa\home\index.html" />
@@ -191,6 +195,7 @@
     <Content Include="Scripts\spa\layout\topBar.html" />
     <Content Include="Scripts\spa\Modules\common.core.js" />
     <Content Include="Scripts\spa\services\apiService.js" />
+    <Content Include="Scripts\spa\services\membershipService.js" />
     <Content Include="Scripts\spa\services\notificationService.js" />
     <Content Include="Scripts\vendors\angucomplete-alt.min.js" />
     <Content Include="Scripts\vendors\angular-base64.js" />
@@ -220,6 +225,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BooksController.cs" />
     <Compile Include="Controllers\GenresController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -232,8 +238,12 @@
     <Compile Include="Infrastucture\Mappings\DomainToViewModelMappingProfile.cs" />
     <Compile Include="Infrastucture\MessageHandlers\HomeCinemaAuthHandler.cs" />
     <Compile Include="Infrastucture\Validators\BookViewModelValidator.cs" />
+    <Compile Include="Infrastucture\Validators\LoginViewModelValidator.cs" />
+    <Compile Include="Infrastucture\Validators\RegistrationViewModelValidator.cs" />
     <Compile Include="Models\BookViewModel.cs" />
     <Compile Include="Models\GenreViewModel.cs" />
+    <Compile Include="Models\LoginViewModel.cs" />
+    <Compile Include="Models\RegistrationViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
