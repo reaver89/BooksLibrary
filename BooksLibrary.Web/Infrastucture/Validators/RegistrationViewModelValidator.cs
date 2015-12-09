@@ -7,7 +7,7 @@ namespace BooksLibrary.Web.Infrastucture.Validators
     {
         public RegistrationViewModelValidator()
         {
-            RuleFor(r => r.Email).NotEmpty().EmailAddress().WithMessage("Invalid email address");
+            RuleFor(r => r.Email).NotEmpty().EmailAddress().WithMessage("Invalid email address!");
             RuleFor(r => r.UserName).NotEmpty().WithMessage("Invalid username");
             RuleFor(r => r.Password).NotEmpty().WithMessage("Invalid password");
         }
