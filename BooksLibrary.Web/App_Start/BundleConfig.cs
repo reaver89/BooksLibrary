@@ -49,7 +49,7 @@ namespace BooksLibrary.Web.App_Start
                 "~/Scripts/spa/customers/customersCtrl.js",
                 "~/Scripts/spa/customers/customersRegCtrl.js",
                 "~/Scripts/spa/customers/customerEditCtrl.js",
-                "~/Scripts/spa/books/bookCtrl.js",
+                "~/Scripts/spa/books/booksCtrl.js",
                 "~/Scripts/spa/books/bookAddCtrl.js",
                 "~/Scripts/spa/books/bookDetailsCtrl.js",
                 "~/Scripts/spa/books/bookEditCtrl.js",
